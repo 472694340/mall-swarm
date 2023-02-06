@@ -75,6 +75,5 @@ feign:
       default:
         connectTimeout: 5000
         readTimeout: 5000
-        loggerLevel: basi   c
+        loggerLevel: basic #恢复basic正确拼写
 
-        #添加一行注释 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
