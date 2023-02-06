@@ -66,7 +66,7 @@ minio:
   endpoint: http://locahost:9000 #MinIO服务所在地址
   bucketName: mall #存储桶名称
   accessKey: minioadmin #访问的key
-  secretKey: minioadmin #访问的秘钥  第一次提交本地数据
+  secretKey: minioadmin #访问的秘钥
 feign:
   okhttp:
     enabled: true
@@ -76,3 +76,5 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
         loggerLevel: basic
+
+        #添加一行注释
